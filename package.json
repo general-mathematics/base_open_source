@@ -1,5 +1,12 @@
 {
     "name": "base_open_source",
+    "jest": {
+        "preset": "ts-jest",
+        "collectCoverage": true,
+        "collectCoverageFrom": [
+            "./src/**"
+        ]
+    },
     "version": "1.0.0",
     "description": "",
     "main": "index.js",
